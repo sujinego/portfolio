@@ -27,3 +27,52 @@ header {
     left: 0;
     bottom: 3rem;
 }
+
+.header_social::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+
+/*================== me ==================*/
+.Me {
+    width: 24rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+
+}
+
+/*================== scroll down ==================*/
+.scroll_down {
+    position:absolute;
+    right: -2.4rem;
+    bottom: 2rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/*====================== 반응형 media queriese==============*/
+@media screen and(max-width:1024px){
+   header {
+       height:68vh;
+   }
+}
+
+/*====================== 반응형 media queriese==============*/
+@media screen and(max-width:600px){
+    header {
+        height: 100vh;
+    }
+
+    .header_social,
+    .scroll_down {
+        display:none;
+    }
+}

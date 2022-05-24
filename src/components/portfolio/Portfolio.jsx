@@ -11,8 +11,50 @@ const Portfolio = () => {
                 <article className="portfolio_item">
                     <div className="portfolio_item_image"></div>
                     <h3>This is a portfolio item title</h3>
+                    <div className="portfolio_item-cta">
                     <a href="http://github" className="btn" target="_blank">github</a>
-
+                    <a href="http://" className="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item_image"></div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio_item-cta">
+                    <a href="http://github" className="btn" target="_blank">github</a>
+                    <a href="http://" className="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item_image"></div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio_item-cta">
+                    <a href="http://github" className="btn" target="_blank">github</a>
+                    <a href="http://" className="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item_image"></div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio_item-cta">
+                    <a href="http://github" className="btn" target="_blank">github</a>
+                    <a href="http://" className="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item_image"></div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio_item-cta">
+                    <a href="http://github" className="btn" target="_blank">github</a>
+                    <a href="http://" className="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
+                </article>
+                <article className="portfolio_item">
+                    <div className="portfolio_item_image"></div>
+                    <h3>This is a portfolio item title</h3>
+                    <div className="portfolio_item-cta">
+                    <a href="http://github" className="btn" target="_blank">github</a>
+                    <a href="http://" className="btn btn-primary" target="_blank">Live Demo</a>
+                    </div>
                 </article>
             </div>
         </section>
